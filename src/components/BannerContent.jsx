@@ -12,10 +12,10 @@ function BannerContent({ logo, text }) {
         </p>
       </div>
 
-      <span className="w-[302px]  lg:w-[619px] font-manrope font-normal text-[14px] leading-[20px] lg:text-[16px] lg:leading-7 text-[#2D2F33] flex-none order-1 grow-0">
-        Chào mừng bạn đến với Xứ sở thần tiên. Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-        et dolore magna aliqua.
+      <span className="w-[320px]  lg:w-[619px] font-manrope font-normal text-[13px] leading-[20px] lg:text-[16px] lg:leading-7 text-[#2D2F33] flex-none order-1 grow-0">
+        Chào mừng bạn đến với Xứ sở thần tiên. Lorem ipsum dolor sit
+        amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua.
       </span>
 
       <button className="flex justify-center items-center py-[10px] px-[20px] gap-[6px] w-[162px] h-[40px]  lg:py-4 lg:px-1 lg:gap-[10px] lg:w-[234px] lg:h-[60px] bg-[#2D2F33] rounded-[80px] flex-none order-2 grow-0">

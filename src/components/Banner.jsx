@@ -18,7 +18,7 @@ function Banner() {
         </div>
       </div>
       {/* Mobie */}
-      <div className=" block lg:hidden flex flex-col mx-auto items-center  p-0 max-w-[600px] min-h-[300px] max-h-[600px] rounded-[12px] flex-none order-1 grow-0">
+      <div className=" block lg:hidden flex flex-col mx-auto items-center  p-0 max-w-[350px] h-[650px] rounded-[12px] flex-none order-1 grow-0">
         <div className=" w-full h-[240px] bg-white flex-none order-0 self-stretch grow-0">
           <img src={banner2} alt="" />
         </div>
