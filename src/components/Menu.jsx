@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Login from "./Login";
 import arrowDown from "../assets/icons/arrow-down.png";
 import { useState, useRef, useEffect } from "react";
+import Icons from "../assets/icons/icons.png";
 
 function Menu() {
   const menus = [
@@ -47,11 +48,11 @@ function Menu() {
     <nav className="lg:[w-full] bg-white h-[64px] lg:h-[96px] flex flex-col items-start p-0 relative z-[999]  order-0">
       <div className="w-screen box-border flex flex-row justify-between items-center py-4 px-5 lg:py-6 lg:px-[86px] gap-[10px] border-b border-b-[rgba(45,47,51,0.1)]">
         <img
-          className=" mx-auto w-[93px] lg:w-[139px] h-[32px] lg:h-[48px] flex-none grow-0 "
+          className=" mx-auto lg:mx-[20px] w-[93px] lg:w-[139px] h-[32px] lg:h-[48px] flex-none grow-0 "
           src={logo}
           alt=""
         />
-        <div className="hidden lg:flex flex-row items-center  gap-[40px] mx-auto w-[755px] h-[48px]  flex-none order-1 grow-0 relative">
+        <div className="hidden lg:flex flex-row items-center  gap-[40px] mx-auto lg:mx-[20px] w-[755px] h-[48px]  flex-none order-1 grow-0 relative">
           <Navbar menus={menus} />
           <Login />
         </div>
@@ -117,6 +118,16 @@ function Menu() {
                     )}
                   </div>
                 ))}
+                <div className="flex flex-col justify-end items-end gap-[20px] mt-[20px]">
+                  <button className=" box-border flex flex-row justify-center items-center w-[140px] h-[48px] border border-[rgba(45,47,51,0.2)] rounded-[80px]">
+                    Đăng Nhập
+                  </button>
+
+                  <button className=" flex flex-row justify-center items-center px-5 py-3 gap-[6px] w-[203px] h-[48px] bg-[#BFFB4F] rounded-[80px]">
+                    <span>Sử dụng miễn phí</span>
+                    <img src={Icons} alt="" />
+                  </button>
+                </div>
               </div>
             </div>
           )}

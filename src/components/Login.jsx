@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Icons from "../assets/icons/icons.png";
 
 function Login() {
