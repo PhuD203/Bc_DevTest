@@ -26,11 +26,14 @@ function TabContentMobie({ tab }) {
             alt=""
             className="w-4 h-4 flex-none order-0 grow-0 brightness-0 invert"
           />
-          <span className="w-[60px] h-[20px] font-manrope font-semibold text-[14px] leading-[20px] text-center text-white flex-none order-1">
+          <span className="w-[70px] h-[20px] font-manrope font-semibold text-[14px] leading-[20px] text-center text-white flex-none order-1">
             {tab[activeMenu].title}
           </span>
           {tab[activeMenu].status === true && (
-            <div className="flex flex-row justify-center items-center px-2 py-1 gap-[10px] w-[40px] h-[24px] bg-[#BFFB4F] rounded-[24px] flex-none order-2 grow-0">
+            <div
+              className="flex flex-row justify-center items-center px-2 py-1 gap-[10px] w-[40px] h-[24px] bg-[#BFFB4F] rounded-[24px] flex-none order-2  whitespace-nowrap
+"
+            >
               <span className="w-6 h-4 font-manrope font-extrabold text-[10px] leading-4 text-center uppercase text-[#2D2F33] flex-none order-0">
                 NEW
               </span>
@@ -62,17 +65,17 @@ function TabContentMobie({ tab }) {
                     alt=""
                     className={`w-4 h-4 flex-none order-0 grow-0 brightness-0 invert`}
                   />
-                  <span className="w-[60px] h-[20px] font-manrope font-semibold text-[14px] leading-[20px] text-center text-white flex-none order-1">
+                  <span className="w-[60px] h-[20px] font-manrope font-semibold text-[14px] leading-[20px] text-center text-white flex-none order-1 whitespace-nowrap">
                     {tab[index].title}
                   </span>
-                  {/* {tab[index].status === true && (
+                  {tab[index].status === true && (
                     <div className="flex flex-row justify-center items-center px-2 py-1 gap-[10px] w-[40px] h-[24px] bg-[#BFFB4F] rounded-[24px] flex-none order-2 grow-0">
                       <span className="w-6 h-4 font-manrope font-extrabold text-[10px] leading-4 text-center uppercase text-[#2D2F33] flex-none order-0">
                         NEW
                       </span>
                     </div>
-                  )} */}
-                  <div
+                  )}
+                  {/* <div
                     className={`flex flex-row justify-center items-center px-2 py-1 gap-[10px] w-[40px] h-[24px] rounded-[24px] order-2 ${
                       tab[index].status === true
                         ? "bg-[#BFFB4F] visible"
@@ -82,7 +85,7 @@ function TabContentMobie({ tab }) {
                     <span className="font-manrope font-extrabold text-[10px] leading-4 text-center uppercase text-[#2D2F33]">
                       NEW
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </button>
               <div className="w-full items-center justify-center h-[1px] bg-[#D9D9D9]" />
