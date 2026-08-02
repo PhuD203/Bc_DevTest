@@ -10,11 +10,11 @@ function Content() {
               long subtitle
             </span>
           </div>
-          <h1 className=" w-[350px] lg:w-[1176px] lg:h-[68px] font-manrope font-extrabold text-[32px] leading-[40px] lg:text-[56px] lg:leading-[68px] text-center text-[#2D2F33] flex-none order-1 grow-0">
+          <h1 className=" w-[350px] lg:w-[1176px]  font-manrope font-extrabold text-[32px] leading-[40px] lg:text-[56px] lg:leading-[68px] text-center text-[#2D2F33] flex-none order-1 grow-0">
             Everything You Need
           </h1>
         </div>
-        <p className="w-[350px] h-[100px] lg:w-[860px] lg:h-[56px] font-manrope font-normal  text-[14px] leading-[20px] lg:text-[16px] lg:leading-[28px] text-center text-[#2D2F33] flex-none order-1 grow-0">
+        <p className="w-[350px] lg:w-[860px]  font-manrope font-normal  text-[14px] leading-[20px] lg:text-[16px] lg:leading-[28px] text-center text-[#2D2F33] flex-none order-1 grow-0">
           Improve speed of service, boost kitchen efficiency, and drive repeat
           business with a restaurant management solution that offers everything
           you need to maximize profits and offer an unparalleled guest
